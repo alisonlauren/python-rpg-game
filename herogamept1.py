@@ -33,7 +33,7 @@ class Hero(Charachter):
         if enemy.health <= 0:
             print("The goblin is dead. Now you can finally take the day off.")
 
-       
+
 
 class Goblin(Charachter):
     def __init__(self, name):
@@ -81,4 +81,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-   
+
